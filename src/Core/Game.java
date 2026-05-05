@@ -1,6 +1,5 @@
 package Core;
 
-import javax.swing.*;
 
 public class Game {
 
