@@ -1,27 +1,27 @@
 [
   {
-    "otazka": "Kolik je 2 + 2?",
-    "odpovedi": ["2", "3", "4", "5"],
-    "spravna": 1
+    "question": "Kolik je 2 + 2?",
+    "answers": ["2", "3", "4", "5"],
+    "correct": 1
   },
   {
-    "otazka": "Jaké je hlavní město České republiky?",
-    "odpovedi": ["Brno", "Ostrava", "Praha", "Plzeň"],
-    "spravna": 3
+    "question": "Jaké je hlavní město České republiky?",
+    "answers": ["Brno", "Ostrava", "Praha", "Plzeň"],
+    "correct": 3
   },
   {
-    "otazka": "Kolik dní má rok?",
-    "odpovedi": ["355", "360", "365", "370"],
-    "spravna": 3
+    "question": "Kolik dní má rok?",
+    "answers": ["355", "360", "365", "370"],
+    "correct": 3
   },
   {
-    "otazka": "Kdo napsal Babičku?",
-    "odpovedi": ["Karel Čapek", "Božena Němcová", "Jan Neruda", "Alois Jirásek"],
-    "spravna": 2
+    "question": "Kdo napsal Babičku?",
+    "answers": ["Karel Čapek", "Božena Němcová", "Jan Neruda", "Alois Jirásek"],
+    "correct": 2
   },
   {
-    "otazka": "Kolik planet má sluneční soustava?",
-    "odpovedi": ["6", "7", "8", "9"],
-    "spravna": 3
+    "question": "Kolik planet má sluneční soustava?",
+    "answers": ["6", "7", "8", "9"],
+    "correct": 3
   }
 ]
