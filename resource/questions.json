@@ -1,0 +1,27 @@
+[
+  {
+    "otazka": "Kolik je 2 + 2?",
+    "odpovedi": ["2", "3", "4", "5"],
+    "spravna": 1
+  },
+  {
+    "otazka": "Jaké je hlavní město České republiky?",
+    "odpovedi": ["Brno", "Ostrava", "Praha", "Plzeň"],
+    "spravna": 3
+  },
+  {
+    "otazka": "Kolik dní má rok?",
+    "odpovedi": ["355", "360", "365", "370"],
+    "spravna": 3
+  },
+  {
+    "otazka": "Kdo napsal Babičku?",
+    "odpovedi": ["Karel Čapek", "Božena Němcová", "Jan Neruda", "Alois Jirásek"],
+    "spravna": 2
+  },
+  {
+    "otazka": "Kolik planet má sluneční soustava?",
+    "odpovedi": ["6", "7", "8", "9"],
+    "spravna": 3
+  }
+]
