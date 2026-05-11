@@ -5,7 +5,6 @@ import javax.swing.*;
 public class GameFrame {
 
     private JFrame jFrame;
-    private JButton jButton;
 
     public GameFrame(GamePanel gamePanel) {
 
