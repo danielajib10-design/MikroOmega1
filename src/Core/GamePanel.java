@@ -15,37 +15,45 @@ public class GamePanel extends JPanel {
         setLayout(new BorderLayout());
         setBackground(Color.BLUE);
 
-        //nadpis
+
+        // nadpis
         title = new JLabel("Quiz App", SwingConstants.CENTER);
-        title.setFont(new Font("Arial", Font.BOLD, 28));
-        title.setBackground(Color.BLUE);
+        title.setFont(new Font(" ", Font.PLAIN, 32));
+        title.setForeground(Color.WHITE);
+        title.setBorder(new EmptyBorder(30, 0, 0, 0));
         add(title, BorderLayout.NORTH);
 
-
-
         // pocet talcitek, pocet rad a vzdalenost mezi nima
-        JPanel buttonPanel = new JPanel(new GridLayout(2, 1, 100, 100));
-
-
+        JPanel buttonPanel = new JPanel(new GridLayout(2, 1, 0, 15));
         // velikost tlacitek
-        buttonPanel.setBorder(new EmptyBorder(100, 150, 100, 150));
+        buttonPanel.setBorder(new EmptyBorder(80, 130, 80, 130));
+
 
         // tlacitko na spusteni quizzu
         startButton = new JButton("Spustit kvíz");
+        startButton.setFont(new Font(" ", Font.PLAIN, 16));
         startButton.addActionListener(e -> JOptionPane.showMessageDialog(this, "Kvíz bude spuštěn..."));
         startButton.setBackground(Color.GREEN);
+        startButton.setForeground(Color.WHITE);
 
         //tlacitko na konec
         exitButton = new JButton("Ukončit");
         exitButton.addActionListener(e -> System.exit(0));
-        exitButton.setBackground(Color.GREEN);
+        exitButton.setBackground(Color.RED);
+
 
         buttonPanel.add(startButton);
         buttonPanel.add(exitButton);
 
         buttonPanel.setBackground(Color.BLUE);
 
+        buttonPanel.setOpaque(false);
+
         add(buttonPanel, BorderLayout.CENTER);
+
+        //odstraneni obdelniku kolem textu
+        startButton.setFocusPainted(false);
+        exitButton.setFocusPainted(false);
     }
 
     //metoda na kresleni do okna

@@ -17,10 +17,4 @@ public class GameFrame {
         jFrame.add(gamePanel);
         jFrame.setVisible(true);
     }
-
-
-
-
-
-
 }
