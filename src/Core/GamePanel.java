@@ -25,6 +25,7 @@ public class GamePanel extends JPanel {
 
         // pocet talcitek, pocet rad a vzdalenost mezi nima
         JPanel buttonPanel = new JPanel(new GridLayout(2, 1, 0, 15));
+
         // velikost tlacitek
         buttonPanel.setBorder(new EmptyBorder(80, 130, 80, 130));
 
@@ -34,13 +35,13 @@ public class GamePanel extends JPanel {
         startButton.setFont(new Font(" ", Font.PLAIN, 16));
         startButton.addActionListener(e -> JOptionPane.showMessageDialog(this, "Kvíz bude spuštěn..."));
         startButton.setBackground(Color.GREEN);
-        startButton.setForeground(Color.WHITE);
+        startButton.setForeground(Color.BLACK);
 
         //tlacitko na konec
         exitButton = new JButton("Ukončit");
+        exitButton.setFont(new Font(" ", Font.PLAIN, 16));
         exitButton.addActionListener(e -> System.exit(0));
         exitButton.setBackground(Color.RED);
-
 
         buttonPanel.add(startButton);
         buttonPanel.add(exitButton);
