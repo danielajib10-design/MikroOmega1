@@ -1,6 +1,6 @@
 package BrothersHelp;
 
-import Question.Question;
+import Quiz.Question;
 import org.json.JSONArray;
 import org.json.JSONObject;
 

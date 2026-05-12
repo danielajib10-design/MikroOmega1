@@ -1,18 +1,17 @@
-package Core;
+package Quiz;
 
 import javax.swing.*;
 
-public class GameFrame {
+public class QuizFrame {
 
     private JFrame jFrame;
 
-    public GameFrame(GamePanel gamePanel) {
-
-        jFrame = new JFrame();
+    public QuizFrame() {
+        jFrame = new JFrame("Quiz");
         jFrame.setSize(500, 500);
         jFrame.setLocationRelativeTo(null);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        jFrame.add(gamePanel);
+        jFrame.add(new QuizPanel());
         jFrame.setVisible(true);
     }
 }

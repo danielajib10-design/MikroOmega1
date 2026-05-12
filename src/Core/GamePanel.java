@@ -1,6 +1,8 @@
 package Core;
 
 
+import Quiz.QuizFrame;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
@@ -33,7 +35,8 @@ public class GamePanel extends JPanel {
         // tlacitko na spusteni quizzu
         startButton = new JButton("Spustit kvíz");
         startButton.setFont(new Font(" ", Font.PLAIN, 16));
-        startButton.addActionListener(e -> JOptionPane.showMessageDialog(this, "Kvíz bude spuštěn..."));
+        //startButton.addActionListener(e -> JOptionPane.showMessageDialog(this, "Kvíz bude spuštěn..."));
+        startButton.addActionListener(e -> new QuizFrame());
         startButton.setBackground(Color.GREEN);
         startButton.setForeground(Color.BLACK);
 

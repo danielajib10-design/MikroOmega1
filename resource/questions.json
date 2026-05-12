@@ -2,26 +2,26 @@
   {
     "question": "Kolik je 2 + 2?",
     "answers": ["2", "3", "4", "5"],
-    "correct": 1
+    "correct": 2
   },
   {
     "question": "Jaké je hlavní město České republiky?",
     "answers": ["Brno", "Ostrava", "Praha", "Plzeň"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Kolik dní má rok?",
     "answers": ["355", "360", "365", "370"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Kdo napsal Babičku?",
     "answers": ["Karel Čapek", "Božena Němcová", "Jan Neruda", "Alois Jirásek"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Kolik planet má sluneční soustava?",
     "answers": ["6", "7", "8", "9"],
-    "correct": 3
+    "correct": 2
   }
 ]
