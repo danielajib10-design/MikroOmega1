@@ -17,7 +17,6 @@ public class GamePanel extends JPanel {
         setLayout(new BorderLayout());
         setBackground(Color.BLUE);
 
-
         // nadpis
         title = new JLabel("Quiz App", SwingConstants.CENTER);
         title.setFont(new Font(" ", Font.PLAIN, 32));
