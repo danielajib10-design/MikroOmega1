@@ -8,7 +8,7 @@ public class QuizFrame {
 
     public QuizFrame() {
 
-        jFrame = new JFrame("Quiz");
+        jFrame = new JFrame();
         jFrame.setSize(500, 500);
         jFrame.setLocationRelativeTo(null);
         jFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
