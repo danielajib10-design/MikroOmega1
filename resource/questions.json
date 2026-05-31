@@ -1,6 +1,5 @@
 [
 
-  "TYTO OTAZKY VYGENEROVAL CHATGPT",
   {
     "question": "Kolik je 2 + 2?",
     "answers": ["2", "3", "4", "5"],
@@ -121,5 +120,8 @@
     "question": "Který český král byl známý jako 'Otec vlasti'?",
     "answers": ["Karel IV.", "Václav II.", "Přemysl Otakar II.", "Rudolf II."],
     "correct": 0
-  }
+  },
+  [
+    "TYTO OTAZKY VYGENEROVAL CHATGPT"
+  ]
 ]
