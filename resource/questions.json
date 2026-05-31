@@ -23,5 +23,101 @@
     "question": "Kolik planet má sluneční soustava?",
     "answers": ["6", "7", "8", "9"],
     "correct": 2
+  },
+
+  {
+    "question": "Která planeta je nejblíže ke Slunci?",
+    "answers": ["Venuše", "Mars", "Merkur", "Jupiter"],
+    "correct": 2
+  },
+  {
+    "question": "Jaká je chemická značka zlata?",
+    "answers": ["Ag", "Au", "Fe", "Cu"],
+    "correct": 1
+  },
+  {
+    "question": "Který oceán je největší na Zemi?",
+    "answers": ["Atlantský", "Indický", "Severní ledový", "Tichý"],
+    "correct": 3
+  },
+  {
+    "question": "Ve kterém roce začala první světová válka?",
+    "answers": ["1914", "1918", "1938", "1939"],
+    "correct": 0
+  },
+  {
+    "question": "Který savec umí jako jediný aktivně létat?",
+    "answers": ["Netopýr", "Létající veverka", "Kolibřík", "Orel"],
+    "correct": 0
+  },
+  {
+    "question": "Jaké je hlavní město Německa?",
+    "answers": ["Mnichov", "Frankfurt", "Berlín", "Hamburk"],
+    "correct": 2
+  },
+  {
+    "question": "Který orgán v lidském těle produkuje inzulín?",
+    "answers": ["Játra", "Slinivka břišní", "Ledviny", "Žaludek"],
+    "correct": 1
+  },
+  {
+    "question": "Kolik strun má standardní violoncello?",
+    "answers": ["3", "4", "5", "6"],
+    "correct": 1
+  },
+  {
+    "question": "Kdo namaloval slavný obraz Mona Lisa?",
+    "answers": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+    "correct": 2
+  },
+  {
+    "question": "Která řeka je nejdelší na světě?",
+    "answers": ["Amazonka", "Nil", "Mississippi", "Jang-c’-ťiang"],
+    "correct": 0
+  },
+  {
+    "question": "Kolik kostí má dospělý lidský organismus?",
+    "answers": ["Okolo 150", "Okolo 206", "Okolo 300", "Okolo 412"],
+    "correct": 1
+  },
+  {
+    "question": "Která země je největší na světě podle rozlohy?",
+    "answers": ["Kanada", "USA", "Čína", "Rusko"],
+    "correct": 3
+  },
+  {
+    "question": "Jak se jmenuje nejvyšší hora Afriky?",
+    "answers": ["Mont Blanc", "Mount Everest", "Kilimandžáro", "Elbrus"],
+    "correct": 2
+  },
+  {
+    "question": "Který evropský stát má tvar boty?",
+    "answers": ["Španělsko", "Řecko", "Francie", "Itálie"],
+    "correct": 3
+  },
+  {
+    "question": "Kolik milimetrů má jeden metr?",
+    "answers": ["100", "1000", "10000", "100000"],
+    "correct": 1
+  },
+  {
+    "question": "Který kov je za pokojové teploty kapalný?",
+    "answers": ["Olovo", "Rtuť", "Hliník", "Zinek"],
+    "correct": 1
+  },
+  {
+    "question": "Jaké je hlavní město Francie?",
+    "answers": ["Lyon", "Marseille", "Paříž", "Nice"],
+    "correct": 2
+  },
+  {
+    "question": "Která poušť je největší horká poušť na světě?",
+    "answers": ["Gobi", "Kalahari", "Sahara", "Atacama"],
+    "correct": 2
+  },
+  {
+    "question": "Který český král byl známý jako 'Otec vlasti'?",
+    "answers": ["Karel IV.", "Václav II.", "Přemysl Otakar II.", "Rudolf II."],
+    "correct": 0
   }
 ]
