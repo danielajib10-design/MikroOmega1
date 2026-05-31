@@ -10,16 +10,24 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-
+/**
+ * Utility class responsible for loading, parsing, and shuffling quiz questions
+ * from an external JSON file.
+ */
 public class QuestionLoader {
 
     private static int POCET_OTAZEK = 5;
 
+    /**
+     * Loads questions from the JSON resource file, shuffles them,
+     * and returns a limited set.
+     *  @return A randomized List of Question objects.
+     */
     public static List<Question> loadQuestions() {
         List<Question> allQuestions = new ArrayList<>();
 
         try {
-            // Cesta k JSON souboru ve složce resource
+
             String path = "resource/questions.json";
             String content = new String(Files.readAllBytes(Paths.get(path)));
             JSONArray pole = new JSONArray(content);
@@ -43,7 +51,7 @@ public class QuestionLoader {
             System.out.println("Otázky se nenačetly kvůli nějaké chybě " + e.getMessage());
         }
 
-        // Zamíchej a vyber 5 otázek
+
         Collections.shuffle(allQuestions);
         return allQuestions.subList(0, Math.min(POCET_OTAZEK, allQuestions.size()));
     }

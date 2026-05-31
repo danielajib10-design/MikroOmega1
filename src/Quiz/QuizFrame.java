@@ -1,11 +1,15 @@
 package Quiz;
 
 import javax.swing.*;
-
+/**
+ * JFrame that displays the quiz panel.
+ */
 public class QuizFrame {
 
     private JFrame jFrame;
-
+    /**
+     * Creates and displays the quiz window with default size and position settings.
+     */
     public QuizFrame() {
 
         jFrame = new JFrame();

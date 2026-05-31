@@ -6,14 +6,19 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
-
+/**
+ * Panel that displays the quiz in progress.
+ * Contains the question text, a question counter and four answer buttons.
+ */
 public class QuizPanel extends JPanel {
 
     private final QuizLogic quizLogic;
     private final JLabel questionCounter;
     private final JLabel questionLabel;
     private final JButton[] answerButtons;
-
+    /**
+     * Initializes the quiz panel – builds all UI components and displays the first question.
+     */
     public QuizPanel() {
         this.quizLogic = new QuizLogic();
 
@@ -53,7 +58,10 @@ public class QuizPanel extends JPanel {
 
         displayQuestion();
     }
-
+    /**
+     * Displays the current question and its answers in the UI.
+     * Updates the question counter label, question text, and answer button labels.
+     */
     private void displayQuestion() {
         Question q = quizLogic.getActualQuestion();
         if (q == null) return;
@@ -67,7 +75,11 @@ public class QuizPanel extends JPanel {
             answerButtons[i].setEnabled(true);
         }
     }
-
+    /**
+     * Handles the user clicking an answer button.
+     * Passes the answer to the quiz logic.
+     * @param index the index of the chosen answer (0–3)
+     */
     private void handleAnswer(int index) {
 
         quizLogic.answer(index);

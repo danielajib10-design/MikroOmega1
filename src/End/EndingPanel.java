@@ -3,9 +3,18 @@ package End;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
-
+/**
+ * Panel that displays the quiz results after completion.
+ * Shows the number of correct answers,
+ * along with a button to exit the application.
+ */
 public class EndingPanel extends JPanel {
-
+    /**
+     * Creates the results panel with the quiz outcome.
+     *
+     * @param correct the number of correctly answered questions
+     * @param total   the total number of questions in the quiz
+     */
     public EndingPanel(int correct, int total) {
         setLayout(new BorderLayout());
         setBackground(new Color(50, 50, 80));

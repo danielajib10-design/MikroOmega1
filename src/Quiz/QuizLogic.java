@@ -3,12 +3,16 @@ package Quiz;
 import BrothersHelp.QuestionLoader;
 
 import java.util.List;
-
+/**
+ * Handles the logic of the quiz.
+ * Manages the list of questions, the current position in the quiz, and the number of correct answers.
+ */
 public class QuizLogic {
 
     private List<Question> questions;
     private int actualIndex;
     private int numberOfCorrect;
+
 
     public QuizLogic() {
         questions = QuestionLoader.loadQuestions();
@@ -16,7 +20,10 @@ public class QuizLogic {
         numberOfCorrect = 0;
     }
 
-    // Vrátí aktuální otázku
+    /**
+     * Returns the current question based on the internal index.
+     * @return the current question or null.
+     */
     public Question getActualQuestion() {
         if (actualIndex < questions.size()) {
             return questions.get(actualIndex);
@@ -24,7 +31,14 @@ public class QuizLogic {
         return null;
     }
 
-    // Zkontroluje odpověď, posune na další otázku, vrátí true pokud správně
+    /**
+     * Processes the user's answer to the current question.
+     * If the answer is correct, increments the correct answer counter.
+     * Then increases the index to the next question.
+     *
+     * @param indexOdpovedi the index of the chosen answer (0–3)
+     * @return true if the answer was correct, otherwise false
+     */
     public boolean answer(int indexOdpovedi) {
         Question q = getActualQuestion();
         boolean correct = (q.getCorrect() == indexOdpovedi);
@@ -35,7 +49,7 @@ public class QuizLogic {
         return correct;
     }
 
-    // Zjistí jestli je kvíz hotový
+
     public boolean end() {
         return actualIndex >= questions.size();
     }
@@ -48,7 +62,7 @@ public class QuizLogic {
         return questions.size();
     }
 
-    // Vrátí číslo aktuální otázky (1-5)
+
     public int getNumberOfQuestion() {
         return actualIndex + 1;
     }
